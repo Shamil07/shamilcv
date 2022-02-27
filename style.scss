@@ -1,0 +1,578 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body { 
+    background-color: blue;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 80%;
+    display: flex;
+}
+
+.d1 {
+    padding: 15px;
+    box-shadow: -5px 0px 6px 0px rgba(0,0,0,0.48);
+}
+.d1 {
+    position: sticky;
+    flex: 1;
+    top: 0;
+    height: 95.3vh;
+    color: white;
+    background-color: rgb(0, 81, 255);
+
+    .photo {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 150px;
+        img {
+            width: 150px;
+            height: 150px;
+            border-radius: 100%;
+        }
+    }
+    .text1 {
+        position: relative;
+        width: 250px;
+        height: 55px;
+        p {
+            position: relative;
+            top: 0px;
+            color: rgb(202, 202, 202);
+        }
+    }
+    .icons {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 30px;
+        width: 95%;
+        top: 5%;
+        i {
+            position: relative;
+            font-size: 25px;
+            color: white;
+            transition: .5s;
+        }
+        i:hover {
+            color: black;
+        }
+    }
+    .links {
+        position: relative;
+        width: 100%;
+        height: 160px;
+        top: 100px;
+
+        a {
+            position: relative;
+            color: white;
+            width: 100%;
+            font-weight: bold;
+            text-decoration: none;
+            text-transform: capitalize;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    }
+    p {
+        position: absolute;
+        bottom: 20px;
+        font-size: 15px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+}
+.d2 {
+    flex: 3;
+    height: 450vh;
+    padding: 50px;
+    background-color: white;
+    box-shadow: 5px 0px 6px 0px rgba(0, 0, 0, 0.48);
+
+    .header {
+        position: relative;
+        display: flex;
+        width: 95%;
+        margin: 0px 15px;
+        align-items: center;
+        justify-content: space-between;
+        
+        h2 {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: rgb(230, 55, 84);
+            font-weight: bold;
+            font-size: 18px;
+            height: 40px;
+            font-family: Arial, Helvetica, sans-serif
+        }
+        button {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+            font-size: 15px;
+            color: white;
+            width: 150px;
+            height: 30px;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+            background-color: rgb(0, 0, 189);
+        }
+        a {
+            text-decoration: none;
+        }
+        a:hover {
+            color: white;
+            text-decoration: underline;
+        }
+    }
+    .loremtxt1 {
+        position: relative;
+        display: flex;
+        align-items: center;
+        width: 95%;
+        margin: 0px 10px;
+        top: 30px;
+        p {
+            letter-spacing: 1px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+        }
+    }
+    .loremtext2 {
+        position: relative;
+        width: 95%;
+        top: 80px;
+        height: 150px;
+        margin: 0px 10px;
+        p {
+            position: relative;
+            margin: 20px 0px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+    }
+    .block {
+        position: relative;
+        width: 95%;
+        top: 150px;
+        margin: 0px 10px;
+        height: 200px;
+
+        .topdiv {
+            position: relative;
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            height: 80px;
+            .left {
+                position: relative;
+                width: 320px;
+                height: 80px;
+                .div1 {
+                    position: relative;
+                    display: flex;
+                    justify-content: space-between;
+                    p {
+                        font-weight: 500;
+                        font-size: 17px;
+                        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                    }
+                    .grayP {
+                        color: rgb(138, 138, 138);
+                    }
+                }
+                .div2 {
+                    position: relative;
+                    width: 100%;
+                    height: 5px;
+                    top: 30px;
+                    background-color: rgb(224, 20, 116);
+                }
+            }
+            .right {
+                position: relative;
+                width: 320px;
+                height: 80px;
+                
+                .div1 {
+                    position: relative;
+                    display: flex;
+                    justify-content: space-between;
+                    p {
+                        font-weight: 500;
+                        font-size: 17px;
+                        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                    }
+                    .grayP {
+                        color: rgb(138, 138, 138);
+                    }
+                }
+                .div2 {
+                    position: relative;
+                    width: 100%;
+                    height: 5px;
+                    top: 30px;
+                    background-color: rgb(224, 20, 116);
+                }
+            }
+        }
+
+        .bottomdiv {
+            position: relative;
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            top: 50px;
+            height: 80px;
+            .left {
+                position: relative;
+                width: 320px;
+                height: 80px;
+                .div1 {
+                    position: relative;
+                    display: flex;
+                    justify-content: space-between;
+                    p {
+                        font-weight: 500;
+                        font-size: 17px;
+                        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                    }
+                    .grayP {
+                        color: rgb(138, 138, 138);
+                    }
+                }
+                .div2 {
+                    position: relative;
+                    width: 100%;
+                    height: 5px;
+                    top: 30px;
+                    background-color: rgb(224, 20, 116);
+                }
+            }
+            .right {
+                position: relative;
+                width: 320px;
+                height: 80px;
+
+                .div1 {
+                    position: relative;
+                    display: flex;
+                    justify-content: space-between;
+                    p {
+                        font-weight: 500;
+                        font-size: 17px;
+                        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                    }
+                    .grayP {
+                        color: rgb(138, 138, 138);
+                    }
+                }
+                .div2 {
+                    position: relative;
+                    width: 100%;
+                    height: 5px;
+                    top: 30px;
+                    background-color: rgb(224, 20, 116);
+                }
+            }
+        }
+    }
+    .bigLorem {
+        .name {
+            position: relative;
+            color: rgb(230, 55, 84);
+            font-weight: bold;
+            font-size: 18px;
+            height: 40px;
+            margin: 250px 10px;
+            font-family: Arial, Helvetica, sans-serif
+        }
+        .one {
+            position: relative;
+            margin: -230px 10px;
+
+            h2 {
+                font-size: 17px;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+            p {
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                b {
+                    font-size: 12px;
+                    color: rgb(107, 107, 107);
+                    font-weight: 100;
+                }
+            }
+        }
+        .two {
+            position: relative;
+            margin: 250px 10px;
+
+            h2 {
+                font-size: 17px;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+            p {
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                b {
+                    font-size: 12px;
+                    color: rgb(107, 107, 107);
+                    font-weight: 100;
+                }
+            }
+        }
+        .three {
+            position: relative;
+            margin: -220px 10px;
+
+            h2 {
+                font-size: 17px;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+            p {
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                b {
+                    font-size: 12px;
+                    color: rgb(107, 107, 107);
+                    font-weight: 100;
+                }
+            }
+        }
+    }
+    .portfolio {
+        h2 {
+            position: relative;
+            color: rgb(230, 55, 84);
+            font-weight: bold;
+            font-size: 18px;
+            height: 40px;
+            margin: 350px 10px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .justaround {
+            position: relative;
+            display: flex;
+            width: 50%;
+            height: 20px;
+            margin: -330px 0px;
+            justify-content: space-around;
+            a {
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                cursor: pointer;
+                color:rgb(107, 107, 107);
+                height: 20px;
+                text-decoration: none;
+            }
+            a:hover {
+                color: blue;
+            }
+        }
+        .portfolioBlock {
+            position: relative;
+            height: 400px;
+            width: 95%;
+            margin: 360px 5px;
+
+            .beet1 {
+                position: relative;
+                display: flex;
+                justify-content: space-around;
+                width: 100%;
+                height: 200px;
+                img {
+                    position: relative;
+                    width: 210px;
+                    height: 190px;
+                    transition: 0.7s;
+                    cursor: pointer;
+                }
+                img:hover {
+                    transform: scale(1.1);
+                }
+
+                div {
+                    position: relative;
+                    height: 190px;
+                    width: 210px;
+                    margin: 5px 0px;
+                    background-color: black;
+                }
+            }
+            .beet2 {
+                position: relative;
+                display: flex;
+                justify-content: space-around;
+                width: 100%;
+                height: 200px;
+                img {
+                    position: relative;
+                    width: 210px;
+                    height: 190px;
+                    transition: 0.7s;
+                    cursor: pointer;
+                }
+                img:hover {
+                    transform: scale(1.1);
+                }
+
+                div {
+                    position: relative;
+                    height: 190px;
+                    width: 210px;
+                    margin: 5px 0px;
+                    background-color: rgb(255, 0, 0);
+                }
+            }
+        }
+        .rates {
+            position: relative;
+            height: 200px;
+            width: 95%;
+            margin: -250px 10px;
+            h2 {
+                position: relative;
+                color: rgb(230, 55, 84);
+                font-weight: bold;
+                font-size: 18px;
+                height: 40px;
+                width: 100%;
+                margin: 0px 0px !important;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            .betweentop {
+                position: relative;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                img {
+                    position: relative;
+                    width: 12%;
+                    border-radius: 10px;
+                    height: auto;
+                }
+                p {
+                    font-size: 17px;
+                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+                    b {
+                        color: rgb(163, 163, 163);
+                        font-weight: 100;
+                        font-size: 14px;
+                    }
+                }
+            }
+            .elipsis {
+                position: relative;
+                display: flex;
+                width: 100%;
+                height: 50px;
+                margin: 40px 0px;
+                justify-content: center;
+                img {
+                    position: relative;
+                    width: 50px;
+                    cursor: pointer;
+                    border-radius: 100%;
+                }
+            }
+        }
+        .messageBoxes {
+            position: relative;
+            height: 350px;
+            width: 95%;
+            margin: 400px 10px;
+            h2 {
+                position: relative;
+                color: rgb(230, 55, 84);
+                font-weight: bold;
+                font-size: 18px;
+                height: 40px;
+                width: 100%;
+                margin: 0px 0px !important;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            .inps1 {
+                position: relative;
+                display: flex;
+                justify-content: space-between;
+                width: 100%;
+                height: 50px;
+
+                input {
+                    position: relative;
+                    padding: 10px;
+                    font-size: 15px;
+                    border: none;
+                    height: 30px;
+                    width: 300px;
+                    outline: none;
+                    background-color: transparent;
+                    border-bottom: 1px solid rgb(0, 0, 0);
+                }
+            }
+            .inps2 {
+                position: relative;
+                display: flex;
+                justify-content: space-between;
+                width: 100%;
+                height: 50px;
+
+                input {
+                    position: relative;
+                    padding: 10px;
+                    font-size: 15px;
+                    border: none;
+                    height: 30px;
+                    width: 300px;
+                    outline: none;
+                    background-color: transparent;
+                    border-bottom: 1px solid rgb(0, 0, 0);
+                }
+            }
+            textarea {
+                position: relative;
+                margin: 10px 1px;
+                outline: none;
+                border: none;
+                border-bottom: 1px solid black;
+                background-color: transparent;
+            }
+            ::placeholder {
+                font-size: 15px;
+            }
+            button {
+                position: relative;
+                padding: 10px;
+                color: white;
+                border: none;
+                cursor: pointer;
+                border-radius: 5px;
+                background-color: rgb(85, 85, 207);
+            }
+            button:hover {
+                background-color: rgb(50, 50, 148);
+            }
+            .blueDiv {
+                position: relative;
+                width: 120.3%;
+                left: -9%;
+                top: 20px;
+                height: 224.3px;
+                background-color: rgb(0, 81, 255);
+            }
+        }
+    }
+}

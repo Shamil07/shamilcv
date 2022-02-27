@@ -1,0 +1,760 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: blue;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container {
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.d1 {
+  padding: 15px;
+  -webkit-box-shadow: -5px 0px 6px 0px rgba(0, 0, 0, 0.48);
+          box-shadow: -5px 0px 6px 0px rgba(0, 0, 0, 0.48);
+}
+
+.d1 {
+  position: -webkit-sticky;
+  position: sticky;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  top: 0;
+  height: 95.3vh;
+  color: white;
+  background-color: #0051ff;
+}
+
+.d1 .photo {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 150px;
+}
+
+.d1 .photo img {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+}
+
+.d1 .text1 {
+  position: relative;
+  width: 250px;
+  height: 55px;
+}
+
+.d1 .text1 p {
+  position: relative;
+  top: 0px;
+  color: #cacaca;
+}
+
+.d1 .icons {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 30px;
+  width: 95%;
+  top: 5%;
+}
+
+.d1 .icons i {
+  position: relative;
+  font-size: 25px;
+  color: white;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.d1 .icons i:hover {
+  color: black;
+}
+
+.d1 .links {
+  position: relative;
+  width: 100%;
+  height: 160px;
+  top: 100px;
+}
+
+.d1 .links a {
+  position: relative;
+  color: white;
+  width: 100%;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.d1 p {
+  position: absolute;
+  bottom: 20px;
+  font-size: 15px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.d2 {
+  -webkit-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
+  height: 450vh;
+  padding: 50px;
+  background-color: white;
+  -webkit-box-shadow: 5px 0px 6px 0px rgba(0, 0, 0, 0.48);
+          box-shadow: 5px 0px 6px 0px rgba(0, 0, 0, 0.48);
+}
+
+.d2 .header {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 95%;
+  margin: 0px 15px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.d2 .header h2 {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #e63754;
+  font-weight: bold;
+  font-size: 18px;
+  height: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.d2 .header button {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px;
+  font-size: 15px;
+  color: white;
+  width: 150px;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  background-color: #0000bd;
+}
+
+.d2 .header a {
+  text-decoration: none;
+}
+
+.d2 .header a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.d2 .loremtxt1 {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 95%;
+  margin: 0px 10px;
+  top: 30px;
+}
+
+.d2 .loremtxt1 p {
+  letter-spacing: 1px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.d2 .loremtext2 {
+  position: relative;
+  width: 95%;
+  top: 80px;
+  height: 150px;
+  margin: 0px 10px;
+}
+
+.d2 .loremtext2 p {
+  position: relative;
+  margin: 20px 0px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.d2 .block {
+  position: relative;
+  width: 95%;
+  top: 150px;
+  margin: 0px 10px;
+  height: 200px;
+}
+
+.d2 .block .topdiv {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  height: 80px;
+}
+
+.d2 .block .topdiv .left {
+  position: relative;
+  width: 320px;
+  height: 80px;
+}
+
+.d2 .block .topdiv .left .div1 {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.d2 .block .topdiv .left .div1 p {
+  font-weight: 500;
+  font-size: 17px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.d2 .block .topdiv .left .div1 .grayP {
+  color: #8a8a8a;
+}
+
+.d2 .block .topdiv .left .div2 {
+  position: relative;
+  width: 100%;
+  height: 5px;
+  top: 30px;
+  background-color: #e01474;
+}
+
+.d2 .block .topdiv .right {
+  position: relative;
+  width: 320px;
+  height: 80px;
+}
+
+.d2 .block .topdiv .right .div1 {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.d2 .block .topdiv .right .div1 p {
+  font-weight: 500;
+  font-size: 17px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.d2 .block .topdiv .right .div1 .grayP {
+  color: #8a8a8a;
+}
+
+.d2 .block .topdiv .right .div2 {
+  position: relative;
+  width: 100%;
+  height: 5px;
+  top: 30px;
+  background-color: #e01474;
+}
+
+.d2 .block .bottomdiv {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  top: 50px;
+  height: 80px;
+}
+
+.d2 .block .bottomdiv .left {
+  position: relative;
+  width: 320px;
+  height: 80px;
+}
+
+.d2 .block .bottomdiv .left .div1 {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.d2 .block .bottomdiv .left .div1 p {
+  font-weight: 500;
+  font-size: 17px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.d2 .block .bottomdiv .left .div1 .grayP {
+  color: #8a8a8a;
+}
+
+.d2 .block .bottomdiv .left .div2 {
+  position: relative;
+  width: 100%;
+  height: 5px;
+  top: 30px;
+  background-color: #e01474;
+}
+
+.d2 .block .bottomdiv .right {
+  position: relative;
+  width: 320px;
+  height: 80px;
+}
+
+.d2 .block .bottomdiv .right .div1 {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.d2 .block .bottomdiv .right .div1 p {
+  font-weight: 500;
+  font-size: 17px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.d2 .block .bottomdiv .right .div1 .grayP {
+  color: #8a8a8a;
+}
+
+.d2 .block .bottomdiv .right .div2 {
+  position: relative;
+  width: 100%;
+  height: 5px;
+  top: 30px;
+  background-color: #e01474;
+}
+
+.d2 .bigLorem .name {
+  position: relative;
+  color: #e63754;
+  font-weight: bold;
+  font-size: 18px;
+  height: 40px;
+  margin: 250px 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.d2 .bigLorem .one {
+  position: relative;
+  margin: -230px 10px;
+}
+
+.d2 .bigLorem .one h2 {
+  font-size: 17px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.d2 .bigLorem .one p {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.d2 .bigLorem .one p b {
+  font-size: 12px;
+  color: #6b6b6b;
+  font-weight: 100;
+}
+
+.d2 .bigLorem .two {
+  position: relative;
+  margin: 250px 10px;
+}
+
+.d2 .bigLorem .two h2 {
+  font-size: 17px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.d2 .bigLorem .two p {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.d2 .bigLorem .two p b {
+  font-size: 12px;
+  color: #6b6b6b;
+  font-weight: 100;
+}
+
+.d2 .bigLorem .three {
+  position: relative;
+  margin: -220px 10px;
+}
+
+.d2 .bigLorem .three h2 {
+  font-size: 17px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.d2 .bigLorem .three p {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.d2 .bigLorem .three p b {
+  font-size: 12px;
+  color: #6b6b6b;
+  font-weight: 100;
+}
+
+.d2 .portfolio h2 {
+  position: relative;
+  color: #e63754;
+  font-weight: bold;
+  font-size: 18px;
+  height: 40px;
+  margin: 350px 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.d2 .portfolio .justaround {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+  height: 20px;
+  margin: -330px 0px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.d2 .portfolio .justaround a {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  cursor: pointer;
+  color: #6b6b6b;
+  height: 20px;
+  text-decoration: none;
+}
+
+.d2 .portfolio .justaround a:hover {
+  color: blue;
+}
+
+.d2 .portfolio .portfolioBlock {
+  position: relative;
+  height: 400px;
+  width: 95%;
+  margin: 360px 5px;
+}
+
+.d2 .portfolio .portfolioBlock .beet1 {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 100%;
+  height: 200px;
+}
+
+.d2 .portfolio .portfolioBlock .beet1 img {
+  position: relative;
+  width: 210px;
+  height: 190px;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+  cursor: pointer;
+}
+
+.d2 .portfolio .portfolioBlock .beet1 img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.d2 .portfolio .portfolioBlock .beet1 div {
+  position: relative;
+  height: 190px;
+  width: 210px;
+  margin: 5px 0px;
+  background-color: black;
+}
+
+.d2 .portfolio .portfolioBlock .beet2 {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 100%;
+  height: 200px;
+}
+
+.d2 .portfolio .portfolioBlock .beet2 img {
+  position: relative;
+  width: 210px;
+  height: 190px;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+  cursor: pointer;
+}
+
+.d2 .portfolio .portfolioBlock .beet2 img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.d2 .portfolio .portfolioBlock .beet2 div {
+  position: relative;
+  height: 190px;
+  width: 210px;
+  margin: 5px 0px;
+  background-color: red;
+}
+
+.d2 .portfolio .rates {
+  position: relative;
+  height: 200px;
+  width: 95%;
+  margin: -250px 10px;
+}
+
+.d2 .portfolio .rates h2 {
+  position: relative;
+  color: #e63754;
+  font-weight: bold;
+  font-size: 18px;
+  height: 40px;
+  width: 100%;
+  margin: 0px 0px !important;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.d2 .portfolio .rates .betweentop {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.d2 .portfolio .rates .betweentop img {
+  position: relative;
+  width: 12%;
+  border-radius: 10px;
+  height: auto;
+}
+
+.d2 .portfolio .rates .betweentop p {
+  font-size: 17px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.d2 .portfolio .rates .betweentop p b {
+  color: #a3a3a3;
+  font-weight: 100;
+  font-size: 14px;
+}
+
+.d2 .portfolio .rates .elipsis {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 50px;
+  margin: 40px 0px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.d2 .portfolio .rates .elipsis img {
+  position: relative;
+  width: 50px;
+  cursor: pointer;
+  border-radius: 100%;
+}
+
+.d2 .portfolio .messageBoxes {
+  position: relative;
+  height: 350px;
+  width: 95%;
+  margin: 400px 10px;
+}
+
+.d2 .portfolio .messageBoxes h2 {
+  position: relative;
+  color: #e63754;
+  font-weight: bold;
+  font-size: 18px;
+  height: 40px;
+  width: 100%;
+  margin: 0px 0px !important;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.d2 .portfolio .messageBoxes .inps1 {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  height: 50px;
+}
+
+.d2 .portfolio .messageBoxes .inps1 input {
+  position: relative;
+  padding: 10px;
+  font-size: 15px;
+  border: none;
+  height: 30px;
+  width: 300px;
+  outline: none;
+  background-color: transparent;
+  border-bottom: 1px solid black;
+}
+
+.d2 .portfolio .messageBoxes .inps2 {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  height: 50px;
+}
+
+.d2 .portfolio .messageBoxes .inps2 input {
+  position: relative;
+  padding: 10px;
+  font-size: 15px;
+  border: none;
+  height: 30px;
+  width: 300px;
+  outline: none;
+  background-color: transparent;
+  border-bottom: 1px solid black;
+}
+
+.d2 .portfolio .messageBoxes textarea {
+  position: relative;
+  margin: 10px 1px;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid black;
+  background-color: transparent;
+}
+
+.d2 .portfolio .messageBoxes ::-webkit-input-placeholder {
+  font-size: 15px;
+}
+
+.d2 .portfolio .messageBoxes :-ms-input-placeholder {
+  font-size: 15px;
+}
+
+.d2 .portfolio .messageBoxes ::-ms-input-placeholder {
+  font-size: 15px;
+}
+
+.d2 .portfolio .messageBoxes ::placeholder {
+  font-size: 15px;
+}
+
+.d2 .portfolio .messageBoxes button {
+  position: relative;
+  padding: 10px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #5555cf;
+}
+
+.d2 .portfolio .messageBoxes button:hover {
+  background-color: #323294;
+}
+
+.d2 .portfolio .messageBoxes .blueDiv {
+  position: relative;
+  width: 120.3%;
+  left: -9%;
+  top: 20px;
+  height: 224.3px;
+  background-color: #0051ff;
+}
+/*# sourceMappingURL=style.css.map */
